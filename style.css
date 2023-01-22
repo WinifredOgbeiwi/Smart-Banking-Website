@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;600;700&family=Inter:wght@400;500;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+:root {
+    --font-family-1: 'Bai Jamjuree', sans-serif;
+    --font-family-2: 'Roboto', sans-serif;
+    --font-family-3: 'Inter', sans-serif;
+
+
+}
+
+body {
+    max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+    background-color: rgb(235, 246, 252);
+}
+
+.wrapper {
+    padding: 1rem 8rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .7rem;
+    font-family: var(--font-family-1);
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-logo {
+    width: 3.5rem;
+}
+
+.nav-icon {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+/* ==========hero page======= */
+.hero-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: var(--font-family-1);
+}
+
+.hero-page-1 h1 {
+    font-size: 5.5rem;
+    padding: 5rem 0 2rem 0;
+    font-family: var(--font-family-1);
+}
+
+.hero-page-1 h1 span {
+    border: 1px solid orange;
+    border-radius: 60%;
+}
+
+.hero-page-1 .hero-icon {
+    background-color: black;
+    width: fit-content;
+    padding: .5rem 1rem;
+    color: white;
+    display: inline-block;
+    margin: 36px 14.4px 0 0;
+}
+
+.hero-icon~span {
+    font-weight: 600;
+}
+
+.hero-page-2 {
+    margin-top: 54px;
+}
+
+/* ================= */
+.hero-page-3 {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    line-height: 1;
+    gap: 7rem;
+
+}
+
+.hero-page-3 img {
+    width: 14%;
+}
+
+.hero-page-3 h2 {
+    font-size: 2.4rem;
+}
+
+.page-3-item-1 #deals {
+    margin-top: .7rem;
+}
+
+.hero-page-3 h3,
+.hero-page-3 p {
+    margin-top: 27px;
+    line-height: 1.5;
+}
+
+/* =========section2 */
+.part-2-wrapper {
+    background-color: rgb(178, 225, 252);
+    margin: 126px 0 126px 0;
+    padding: 7.4rem;
+    display: flex;
+    justify-content: space-around;
+    font-style: normal;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem; */
+}
+
+.part-2-wrapper h2 {
+    line-height: 38px;
+    font-family: var(--font-family-1);
+    font-weight: 500;
+    color: #202020;
+    font-size: 1.7rem;
+    padding-bottom: 0.9rem;
+}
+
+.part-2-wrapper p {
+    font-family: var(--font-family-2);
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.02em;
+    color: #5F5F64;
+}
+
+/* ==========section 3 */
+.part-3-wrapper-top h2 {
+    font-family: var(--font-family-1);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.4rem;
+    line-height: 4.4rem;
+    text-align: center;
+    letter-spacing: .01em;
+    color: #0D1111;
+}
+
+.part-3-wrapper-top p {
+    font-family: var(--font-family-2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #767E7E;
+    margin: 2.2rem 0 5rem 0;
+}
+
+.part-3-wrapper-figures {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-weight: 500;
+    text-align: center;
+    gap: 100px;
+
+}
+
+.part-3-wrapper-figures div {
+    border-left: 1px solid black;
+    padding: 3rem 3rem;
+}
+
+.part-3-wrapper-figures div:first-child {
+    border-left: none;
+}
+
+.part-3-wrapper-figures h4 {
+    font-family: var(--font-family-3);
+    font-size: 0.7rem;
+    line-height: 20px;
+    letter-spacing: 5px;
+    color: #718176;
+
+}
+
+.part-3-wrapper-figures p {
+    font-family: var(--font-family-2);
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.01em;
+    color: #000000;
+    font-style: normal;
+}
+
+/* =============section4 */
+.part-4-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* margin-top: 46px; */
+    padding: 69px;
+    gap: 113px;
+}
+
+.part-4-item-2a h2 {
+    font-family: var(--font-family-1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 62px;
+    letter-spacing: -0.01em;
+    color: #192430;
+}
+
+.part-4-item-2a p {
+    font-family: var(--font-family-2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #727272;
+    margin: 35px 0 45px 0;
+
+}
